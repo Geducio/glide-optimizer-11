@@ -1,5 +1,5 @@
 {
-    "name": "infinityweb/glide-optimizer",
+    "name": "haroldas-zapalskis-orbio/glide-optimizer",
     "description": "An optimizer manipulator for Glide that uses ps/image-optimizer package.",
     "keywords": [
         "glide",
@@ -11,16 +11,14 @@
     "homepage": "https://github.com/YannikFirre/glide-optimizer",
     "authors": [
         {
-            "name": "Yannik Firre",
-            "role": "Developer"
+            "name": "Haroldas Zapalskis",
+            "email": "haroldas.zapalskis@gmail.com"
         }
     ],
     "require": {
         "league/glide": "^1.5 || ^2.0",
-        "psr/log": "^1.1",
-        "ps/image-optimizer": "^2.0"
-    },
-    "require-dev": {
+        "psr/log": "^1 | ^2 | ^3",
+        "haroldas-zapalskis-orbio/image-optimizer": "dev-master"
     },
     "autoload": {
         "psr-4": {
