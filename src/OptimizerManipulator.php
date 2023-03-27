@@ -46,6 +46,7 @@ class OptimizerManipulator extends BaseManipulator
             'image/pjpeg' => 'jpegoptim',
             'image/jpeg' => 'jpegoptim',
             'image/gif' => 'gifsicle',
+            'image/webp' => 'webp',
         ],
     ];
 
