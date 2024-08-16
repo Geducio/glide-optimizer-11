@@ -18,7 +18,7 @@
     "require": {
         "league/glide": "^1.5 || ^2.0",
         "psr/log": "^1 | ^2 | ^3",
-        "haroldas-zapalskis-orbio/image-optimizer": "dev-master"
+        "haroldas-zapalskis-orbio/image-optimizer": "dev-master | dev-l11-compatibility"
     },
     "autoload": {
         "psr-4": {
